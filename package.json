@@ -1,0 +1,21 @@
+{
+  "name": "life-cycle-hooks",
+  "version": "0.1.0",
+  "description": "A clean way to bind functions to events in custom code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lifecycle",
+    "hooks"
+  ],
+  "author": "Tom Klinovsky",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3",
+    "sinon-chai": "^3.3.0"
+  }
+}
