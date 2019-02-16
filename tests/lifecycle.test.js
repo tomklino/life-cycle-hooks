@@ -56,23 +56,5 @@ describe('basic tests', () => {
 
     expect(mockFunction).to.not.have.been.called;
     done();
-  })
-
-  // lifecycle.on('short_input', (msg, length) => {
-  //   console.log(`a short input of length ${length}:`, msg);
-  // })
-  //
-  // lifecycle.on('long_input', (msg, length) => {
-  //   console.log(`long input of length ${length}:`, msg);
-  // })
-  //
-  // process.stdin.on('data', (data) => {
-  //   const message = data.toString();
-  //   if(message.length < 9) {
-  //     lifecycle.trigger('short_input', message, message.length);
-  //   } else {
-  //     lifecycle.trigger('long_input', message, message.length);
-  //   }
-  //   lifecycle.trigger('finally', message);
-  // })
-})
+  });
+});
