@@ -12,7 +12,7 @@ npm i --save life-cycle-hooks
 Start by initializing a lifecycle object:
 
 ```js
-const LifeCycle = require('./lifecycle.js');
+const LifeCycle = require('life-cycle-hooks');
 const lifecycle = new LifeCycle();
 ```
 
